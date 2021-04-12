@@ -1,0 +1,64 @@
+/* Variables */
+/* Global */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  text-align: center;
+  background-color: #ffffff;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 1.7;
+  font-family: "Roboto", sans-serif;
+}
+
+section {
+  padding: 96px 0;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.parent {
+  background-image: url("https://images.pexels.com/photos/5668484/pexels-photo-5668484.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  height: 66vh;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* Navigation */
+#silver {
+  font-family: "Caveat", cursive;
+  font-style: italic;
+  font-size: 32px;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navigation li {
+  display: inline-block;
+  position: relative;
+  margin-right: 36px;
+}
+
+/* Splash */
+/*
+.splash-inner {
+    padding: 0;
+    bottom: auto;
+    right: auto;
+    left: 50%;
+    top: 50%; 
+    transform: translate(-50%, -50%);
+}
+*/
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxjQUFBO0FBZUEsV0FBQTtBQUVBO0VBQ0ksaUNBQWlDO0VBQ2pDLFNBQVM7RUFDVCxrQkFBa0I7RUFDbEIseUJBZmlCO0VBZ0JqQixjQWhCaUI7RUFpQmpCLGVBQWU7RUFDZixnQkFBZ0I7RUFDaEIsaUNBZDRCO0FDQWhDOztBRGlCQTtFQUNJLGVBQWU7QUNkbkI7O0FEaUJBO0VBQ0ksaUJBQWlCO0VBQ2pCLGNBQWM7RUFDZCxlQUFlO0FDZG5COztBRGlCQTtFQUNJLHVJQUF1STtFQUN2SSxZQUFZO0VBQ1osa0JBQWtCO0VBQ2xCLGtDQUFrQztFQUNsQyxzQkFBc0I7RUFDdEIsNEJBQTRCO0VBQzVCLDRCQUE0QjtBQ2RoQzs7QURpQkEsZUFBQTtBQUVBO0VBQ0ksOEJBMUM0QjtFQTJDNUIsa0JBQWtCO0VBQ2xCLGVBQWU7QUNmbkI7O0FEa0JBO0VBQ0ksU0FBUztFQUNULFVBQVU7RUFDVixxQkFBcUI7QUNmekI7O0FEa0JBO0VBQ0kscUJBQXFCO0VBQ3JCLGtCQUFrQjtFQUNsQixrQkFBa0I7QUNmdEI7O0FEa0JBLFdBQUE7QUFDQTs7Ozs7Ozs7O0NDUEMiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
