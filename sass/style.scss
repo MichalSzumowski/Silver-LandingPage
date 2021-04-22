@@ -24,7 +24,6 @@ body {
     margin: 0;
     text-align: center;
     background-color: $color-light;
-    color: $color-light;
     line-height: 1.7;
     font-family: $font-sans;
 } 
@@ -88,7 +87,6 @@ section {
 
 .navigation a:hover {
     color: $color-two;
-    text-decoration: underline;
     transition: $transition;
 }
 
@@ -97,6 +95,7 @@ section {
 .page-title {
     margin-top: 1rem;
     font-family: $font-serif;
+    color: $color-light;
 }
 
 .page-subtitle {
@@ -106,7 +105,7 @@ section {
     font-size: 3rem;
     text-transform: uppercase;
     font-weight: bold;
-
+    color: $color-light;
 }
 
 .btn {
@@ -147,11 +146,7 @@ section {
     color: $color-one;
     // font-size: 1rem;
     font-style: italic;
-    margin: 0;
-}
-
-.services {
-    color: $color-dark;
+    margin: 0 0 1rem 0;
 }
 
 .box {
@@ -178,14 +173,92 @@ section {
 
 .subsection-title {
     font-size: 1.5rem;
-    margin-top: 1rem;
-    margin-bottom: 0;
-
+    margin: 0;
 }
 
 .main-text {
     font-family: $font-serif;
     color: $color-one;
     font-size: 0.75rem;
-
 }
+
+/* Portfolio */
+
+.portfolio {
+    background: #f7f7f7;
+}
+
+.skill-image {
+    width: 100%;
+    height: 75%;
+    overflow: hidden;
+}
+
+.skill-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.skill-image img:hover {
+    transform: scale(2);
+    transition: $transition;
+}
+
+.skill-description {
+    padding: 1rem;
+    background: $color-light;
+}
+
+.portfolio-box {
+    max-height: 450px;
+    margin: 0;
+}
+
+.portfolio-title {
+    font-size: 1rem;
+    line-height: 1;
+    margin: 0;
+}
+
+.portfolio-text {
+    margin: 0;
+    font-family: $font-serif;
+    color: $color-one;
+    font-size: 0.75rem;
+}
+
+/* Footer */
+
+
+.footer {
+    font-size: 16px;
+    min-height: 24px;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;   
+}
+
+.footer li {
+    display: inline-block;
+    font-size: 0;
+    padding: 12px;
+    transition: $transition;
+}
+
+.footer li:hover {
+    transform: scale(1.2);
+}
+
+.footer i {
+    font-size: 1rem;
+    background: $color-dark; 
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    color: $color-light;
+    border-radius: 50%;
+ }
