@@ -1,4 +1,4 @@
-### Silver - Landing Page 
+# Silver - Landing Page 
 
 ## Installation 
 
